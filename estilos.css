@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(236, 236, 236);
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 10em 10em 10em;
+    grid-template-rows: 10em 10em 10em;
+    gap: 1em;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    font-size: 5em;
+    background-color: white;
+}
+
