@@ -2,10 +2,25 @@ body{
     background-color: rgb(236, 236, 236);
 }
 
+#contador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    font-size: 2em;
+}
+
+.victorias{
+    border: 1px solid black;
+    padding: 0.5em;
+    border-radius: 1em;
+    background-color: rgb(255, 255, 255);
+}
+
 #grid {
     display: grid;
-    grid-template-columns: 10em 10em 10em;
-    grid-template-rows: 10em 10em 10em;
+    grid-template-columns: 7em 7em 7em;
+    grid-template-rows: 7em 7em 7em;
     gap: 1em;
     justify-content: center;
     margin-top: 2em;
@@ -18,5 +33,23 @@ body{
     border: 3px solid black;
     font-size: 5em;
     background-color: white;
+    cursor: pointer;
+}
+
+.item:hover{
+    background-color: aliceblue;
+}
+
+.reset {
+    display: block;
+    padding: 1em;
+    border-radius: 1em;
+    margin-left: auto;
+    cursor: pointer;
+    background-color: white;
+}
+
+.reset:hover {
+    background-color: aliceblue;
 }
 
